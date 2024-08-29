@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment6</title>
+
+</head>
+
+<body>
+
+
+
+    <script>
+        //Basic Arithematic
+        var a = 5;
+        var b = 7;
+        var c = 10;
+        var d = 1;
+        var e = (a + b)
+        console.log(e);
+        var f = ((2 * a + 3 * c) - (b * d))
+        console.log(f);
+        var g = ((a * b) + (c * d) - (5 / c))
+        console.log(g);
+        var h = (g / g * a);
+        console.log(h);
+
+        //Date Types
+        var t = "Daman"
+        console.log(typeof t);
+        var y = 1
+        console.log(typeof y);
+
+        //String Indexing
+
+        let name = "Daman"
+        console.log(name[4]);
+        console.log(name[0]);
+        console.log(name.charAt(1));
+
+        //Number to String
+
+        let numStr = "12224"
+        let Num = Number(numStr);
+        console.log(typeof Num);
+
+        let ab = "1234"
+        console.log(typeof ab);
+
+        //String to Number
+
+        let str = 1234
+        let strtonum = String(str);
+        console.log(typeof strtonum);
+
+        //String Methods
+
+        let nameo = "Daman"
+        console.log(nameo.length)
+
+        let l = "hey"
+        console.log(l.toUpperCase());
+
+        let v = "BYE"
+        console.log(v.toLowerCase());
+
+        let my_name = "Daman"
+        console.log(my_name.indexOf('n'));
+
+        let k = "Food"
+        console.log(k.slice(1, 3));
+
+        //String Concatenation
+
+        let City = "Lahore";
+        let Country = "Pakistan";
+        let connect = ","
+        let fulladdress = City + "" + connect + " " + Country;
+        console.log(fulladdress);
+
+        //AND, 0R, NOT
+
+        let io = true;
+        let bo = false;
+        console.log(io && bo);
+
+        let xx = true;
+        let yy = false;
+        console.log(xx || yy);
+
+        //If-Else
+        let myscore = 20;
+
+        if (myscore >= 18) {
+            console.log("Pass");
+        } else {
+            console.log("Fail");
+        }
+
+        //Nested If-Else
+        let number=prompt("Enter a Number:")
+
+        if (number >0) {
+            console.log("positive");
+        }
+        else if(number==0){
+            console.log("zero")
+        }
+        else{console.log("negative")}
+
+
+
+        //Logical Operator (AND) with If-Else
+        let age = 24
+        let score = 90
+
+        if (age > 18 && score >= 100 && score < 150) {
+            console.log("Eligible");
+        }
+        else {
+            console.log("Ineligible");
+
+        }
+
+        //Logical Operator (OR) with If-else
+        let DrivingLicense = false;
+        let LearnerPermit = true;
+
+        if (DrivingLicense == true || LearnerPermit == true) {
+            console.log("Can Drive");
+        }
+        else { console.log("Can't Drive") }
+
+        //Logical Operator (AND plus OR) with If-else
+
+        var studentage = 16;
+        var hasID = true;
+        var withParent = false;
+
+        if ((studentage >= 18 && hasID) || withParent) {
+            console.log("Allowed to enter.");
+        } else {
+            console.log("Not allowed to enter.");
+        }
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
